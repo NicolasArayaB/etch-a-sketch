@@ -1,0 +1,58 @@
+body {
+    background-color: lightcoral;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+
+.cell {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(123, 255, 0);
+    width: 1fr;
+    height: 1fr;
+}
+
+.newCell {
+    background-color: black;
+    border: 0.3px solid white;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#buttons {
+    border: 10px solid rgb(161, 39, 145);
+    border-radius: 15px;
+    display: inline-block;
+    width: 90px;
+}
+
+#reset {
+    border: none;
+    border-radius: 4px;
+    background-color: lightcoral;
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    
+}

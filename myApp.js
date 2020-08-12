@@ -27,11 +27,6 @@ function newGrid() {
     
 }
 
-function randomColor () {
-    
-}
-
-
 document.getElementById("cont").addEventListener("mouseover", function(e) {
     if (e.target && e.target.nodeName == "DIV") {
         e.target.className = "newCell";
